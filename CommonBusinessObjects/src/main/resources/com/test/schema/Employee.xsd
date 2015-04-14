@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema" targetNamespace="http://www.test.com/businessobjects/employee"
+	xmlns:tns="http://www.test.com/businessobjects/employee" elementFormDefault="qualified">
+	
+	<element name="Employee">
+		<complexType>
+			<sequence>
+				<element name="eno" type="int"/>
+				<element name="ename" type="string"/>
+				<element name="salary" type="double"/>
+				<element name="gender" type="double"/>
+			</sequence>		
+		</complexType>
+	</element>
+	
+</schema>
+

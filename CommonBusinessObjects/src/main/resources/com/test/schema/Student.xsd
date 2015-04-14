@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema" targetNamespace="http://www.test.com/businessobjects/student"
+	xmlns:tns="http://www.test.com/businessobjects/student" elementFormDefault="qualified">
+	
+	<element name="StudentDTO">
+		<complexType>
+			<sequence>
+				<element name="sno" type="int"/>
+				<element name="sname" type="string"/>
+				<element name="course" type="string"/>
+				<element name="age" type="int"/>
+			</sequence>		
+		</complexType>
+	</element>
+	
+</schema>
+
